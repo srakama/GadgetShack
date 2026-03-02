@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#111827"/>
+  <!-- Shopping bag body -->
+  <rect x="10" y="26" width="44" height="32" rx="4" fill="white"/>
+  <!-- Bag handle -->
+  <path d="M22 26 C22 14 42 14 42 26" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- GS text -->
+  <text x="32" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="bold" font-size="18" fill="#111827" letter-spacing="-1">GS</text>
+</svg>
+
