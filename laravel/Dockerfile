@@ -1,4 +1,4 @@
-FROM php:8.2-fpm-alpine
+FROM php:8.4-fpm-alpine
 
 WORKDIR /var/www/html
 
@@ -20,22 +20,22 @@ RUN apk add --no-cache \
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-COPY composer.json composer.lock ./
-RUN composer install --no-dev --prefer-dist --no-interaction --no-progress --optimize-autoloader
+COPY laravel/composer.json laravel/composer.lock ./
+RUN composer install --no-dev --prefer-dist --no-interaction --no-progress --optimize-autoloader --no-scripts
 
-COPY package.json package-lock.json ./
+COPY laravel/package.json laravel/package-lock.json ./
 RUN npm ci
 
-COPY . .
+COPY laravel/ .
 
 RUN npm run build \
     && rm -rf node_modules
 
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-COPY nginx.conf /etc/nginx/http.d/default.conf
-COPY supervisord.conf /etc/supervisord.conf
-COPY start.sh /start.sh
+COPY laravel/nginx.conf /etc/nginx/http.d/default.conf
+COPY laravel/supervisord.conf /etc/supervisord.conf
+COPY laravel/start.sh /start.sh
 RUN chmod +x /start.sh
 
 EXPOSE 8080
