@@ -4,7 +4,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import ReactDOMServer from 'react-dom/server';
 import { route } from '../../vendor/tightenco/ziggy';
 
-const appName = import.meta.env.VITE_APP_NAME || 'GadgetShack';
+const appName = import.meta.env.VITE_APP_NAME || 'GadgetVilla';
 
 createServer((page) =>
     createInertiaApp({

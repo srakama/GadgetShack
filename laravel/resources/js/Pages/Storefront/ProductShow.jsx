@@ -29,7 +29,7 @@ export default function ProductShow({ product, related, is_liked = false, liked_
 
     const metaDescription = (() => {
         const raw = (product?.description || '').trim();
-        if (!raw) return `Buy ${product?.name || 'this product'} at GadgetShack. Refurbished tech at great prices.`;
+        if (!raw) return `Buy ${product?.name || 'this product'} at GadgetVilla. Refurbished tech at great prices.`;
         return raw.length > 160 ? `${raw.slice(0, 157)}...` : raw;
     })();
 

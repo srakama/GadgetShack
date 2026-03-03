@@ -96,9 +96,9 @@ export default function StorefrontLayout({ children }) {
                                 <rect width="64" height="64" rx="12" fill="#111827"/>
                                 <rect x="10" y="26" width="44" height="32" rx="4" fill="white"/>
                                 <path d="M22 26 C22 14 42 14 42 26" stroke="white" strokeWidth="4" strokeLinecap="round" fill="none"/>
-                                <text x="32" y="50" textAnchor="middle" fontFamily="system-ui,sans-serif" fontWeight="bold" fontSize="18" fill="#111827" letterSpacing="-1">GS</text>
+                                <text x="32" y="50" textAnchor="middle" fontFamily="system-ui,sans-serif" fontWeight="bold" fontSize="18" fill="#111827" letterSpacing="-1">GV</text>
                             </svg>
-                            <span className="text-lg font-semibold tracking-tight">GadgetShack</span>
+                            <span className="text-lg font-semibold tracking-tight">GadgetVilla</span>
                         </Link>
                         <nav className="hidden items-center gap-4 text-sm md:flex">
                             <Link
@@ -406,16 +406,16 @@ export default function StorefrontLayout({ children }) {
                                 <rect width="64" height="64" rx="12" fill="#1f2937"/>
                                 <rect x="10" y="26" width="44" height="32" rx="4" fill="white"/>
                                 <path d="M22 26 C22 14 42 14 42 26" stroke="white" strokeWidth="4" strokeLinecap="round" fill="none"/>
-                                <text x="32" y="50" textAnchor="middle" fontFamily="system-ui,sans-serif" fontWeight="bold" fontSize="18" fill="#1f2937" letterSpacing="-1">GS</text>
+                                <text x="32" y="50" textAnchor="middle" fontFamily="system-ui,sans-serif" fontWeight="bold" fontSize="18" fill="#1f2937" letterSpacing="-1">GV</text>
                             </svg>
-                            <span className="text-xl font-bold text-white tracking-tight">GadgetShack</span>
+                            <span className="text-xl font-bold text-white tracking-tight">GadgetVilla</span>
                         </div>
                         <div className="text-xs leading-relaxed text-gray-400">
                             <p className="font-semibold text-gray-300 mb-1">Cape Town Store:</p>
                             <p>Sunbird Park Kuils River,<br />Cape Town, 7580</p>
                         </div>
                         <div className="text-xs leading-relaxed text-gray-400">
-                            <p>Email: <a href="mailto:info@gadgetshack.co.za" className="hover:text-white">info@gadgetshack.co.za</a></p>
+                            <p>Email: <a href="mailto:info@gadgetvilla.co.za" className="hover:text-white">info@gadgetvilla.co.za</a></p>
                             <p className="mt-1">Online Queries: <a href="tel:0870595500" className="hover:text-white">021 137 8453</a></p>
                         </div>
                         {/* Social icons */}
@@ -507,7 +507,7 @@ export default function StorefrontLayout({ children }) {
                 {/* Bottom bar */}
                 <div className="border-t border-white/10">
                     <div className="mx-auto max-w-6xl px-4 py-4 grid grid-cols-3 items-center text-xs text-gray-500">
-                        <span>© {new Date().getFullYear()} GadgetShack. All rights reserved.</span>
+                        <span>© {new Date().getFullYear()} GadgetVilla. All rights reserved.</span>
                         <span className="flex items-center justify-center gap-1">
                             Crafted with <span className="text-red-500">❤️</span> by{' '}
                             <a href="https://azaniadigital.co.za" target="_blank" rel="noopener noreferrer" className="hover:text-white underline underline-offset-2">

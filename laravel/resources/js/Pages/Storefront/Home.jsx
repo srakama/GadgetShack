@@ -11,16 +11,16 @@ export default function Home({ products, categories = [], new_arrivals = [], lik
 
     return (
         <>
-            <Head title="GadgetShack">
+            <Head title="GadgetVilla">
                 <meta
                     name="description"
                     content="Shop refurbished tech and gadgets at great prices. Browse smartphones, laptops, tablets and accessories."
                 />
                 <link rel="canonical" href="/" />
-                <meta property="og:title" content="GadgetShack" />
+                <meta property="og:title" content="GadgetVilla" />
                 <meta property="og:description" content="Shop refurbished tech and gadgets at great prices. Browse smartphones, laptops, tablets and accessories." />
                 <meta property="og:url" content="/" />
-                <meta name="twitter:title" content="GadgetShack" />
+                <meta name="twitter:title" content="GadgetVilla" />
                 <meta name="twitter:description" content="Shop refurbished tech and gadgets at great prices. Browse smartphones, laptops, tablets and accessories." />
             </Head>
             <StorefrontLayout>
@@ -31,7 +31,7 @@ export default function Home({ products, categories = [], new_arrivals = [], lik
                                 Refurbished tech. Great prices.
                             </div>
                             <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                                Find your next gadget at GadgetShack
+                                Find your next gadget at GadgetVilla
                             </h1>
                             <p className="mt-4 text-base leading-relaxed text-gray-600">
                                 Browse a curated catalog of smartphones, laptops, tablets and accessories.

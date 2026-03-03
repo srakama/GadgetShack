@@ -9,17 +9,17 @@
         <meta name="robots" content="index,follow">
 
         <meta property="og:type" content="website">
-        <meta property="og:site_name" content="{{ config('app.name', 'GadgetShack') }}">
-        <meta property="og:title" content="{{ config('app.name', 'GadgetShack') }}">
+        <meta property="og:site_name" content="{{ config('app.name', 'GadgetVilla') }}">
+        <meta property="og:title" content="{{ config('app.name', 'GadgetVilla') }}">
         <meta property="og:description" content="Shop refurbished tech and gadgets at great prices. Browse smartphones, laptops, tablets and accessories.">
         <meta property="og:image" content="/favicon.svg">
 
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="{{ config('app.name', 'GadgetShack') }}">
+        <meta name="twitter:title" content="{{ config('app.name', 'GadgetVilla') }}">
         <meta name="twitter:description" content="Shop refurbished tech and gadgets at great prices. Browse smartphones, laptops, tablets and accessories.">
         <meta name="twitter:image" content="/favicon.svg">
 
-        <title inertia>{{ config('app.name', 'GadgetShack') }}</title>
+        <title inertia>{{ config('app.name', 'GadgetVilla') }}</title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">

@@ -220,7 +220,7 @@ Artisan::command('gadgetshack:scrape-techmarkit {--base=} {--output=} {--full} {
         ['handle' => 'fitness-watches-1', 'name' => 'Fitness & Watches', 'category' => 'Wearables'],
     ];
 
-    $userAgent = 'GadgetShackBot/1.0 (+https://gadgetshack.local)';
+    $userAgent = 'GadgetVillaBot/1.0 (+https://gadgetvilla.local)';
 
     $stripHtml = function (string $html): string {
         $txt = preg_replace('/<[^>]*>/', '', $html);

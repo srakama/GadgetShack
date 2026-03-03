@@ -4,7 +4,7 @@ import StorefrontLayout from '@/Layouts/StorefrontLayout';
 export default function WarrantyPolicy() {
     return (
         <>
-            <Head title="Warranty Policy – GadgetShack" />
+            <Head title="Warranty Policy – GadgetVilla" />
             <StorefrontLayout>
                 <section className="mx-auto max-w-4xl px-4 py-12">
                     <h1 className="text-3xl font-bold text-gray-900 mb-8">Warranty Policy</h1>
@@ -12,14 +12,14 @@ export default function WarrantyPolicy() {
                     {/* Overview */}
                     <div className="mb-8">
                         <p className="text-gray-700 mb-4">
-                            At GadgetShack, every product we sell is backed by a warranty of <strong>up to 2 years</strong>,
+                            At GadgetVilla, every product we sell is backed by a warranty of <strong>up to 2 years</strong>,
                             giving you complete peace of mind with your purchase. Our warranty covers manufacturing defects
                             and hardware failures under normal use conditions.
                         </p>
                         <p className="text-gray-700">
                             For warranty-related queries, please contact us at{' '}
-                            <a href="mailto:info@gadgetshack.co.za" className="text-blue-600 hover:underline">
-                                info@gadgetshack.co.za
+                            <a href="mailto:info@gadgetvilla.co.za" className="text-blue-600 hover:underline">
+                                info@gadgetvilla.co.za
                             </a>.
                         </p>
                     </div>
@@ -82,9 +82,9 @@ export default function WarrantyPolicy() {
                     <div className="mb-8">
                         <h2 className="text-xl font-semibold text-gray-900 mb-3">How to Claim a Warranty</h2>
                         <ul className="list-none space-y-2 text-gray-700">
-                            <li><span className="font-medium">1.</span> Email <a href="mailto:info@gadgetshack.co.za" className="text-blue-600 hover:underline">info@gadgetshack.co.za</a> with your order number, a description of the fault, and supporting photographs or video evidence.</li>
+                            <li><span className="font-medium">1.</span> Email <a href="mailto:info@gadgetvilla.co.za" className="text-blue-600 hover:underline">info@gadgetvilla.co.za</a> with your order number, a description of the fault, and supporting photographs or video evidence.</li>
                             <li><span className="font-medium">2.</span> Our support team will assess your claim within 2–3 business days and provide return instructions if the claim is approved.</li>
-                            <li><span className="font-medium">3.</span> Send the product to us in its original or adequate protective packaging. GadgetShack will cover the cost of return shipping for valid warranty claims.</li>
+                            <li><span className="font-medium">3.</span> Send the product to us in its original or adequate protective packaging. GadgetVilla will cover the cost of return shipping for valid warranty claims.</li>
                             <li><span className="font-medium">4.</span> Upon receipt, our technicians will inspect the product. If the defect is confirmed, we will repair or replace the product at no cost to you, or issue a full refund at our discretion.</li>
                         </ul>
                     </div>
@@ -93,7 +93,7 @@ export default function WarrantyPolicy() {
                     <div className="mb-8">
                         <h2 className="text-xl font-semibold text-gray-900 mb-3">Warranty Resolution Options</h2>
                         <p className="text-gray-700 mb-3">
-                            Depending on stock availability and the nature of the defect, GadgetShack will offer one
+                            Depending on stock availability and the nature of the defect, GadgetVilla will offer one
                             of the following resolutions:
                         </p>
                         <ul className="list-none space-y-2 text-gray-700">
@@ -104,7 +104,7 @@ export default function WarrantyPolicy() {
                     </div>
 
                     <p className="text-gray-700 mt-10 pt-6 border-t border-gray-200 text-sm">
-                        GadgetShack's warranty policy is offered in addition to, and does not limit, your statutory
+                        GadgetVilla's warranty policy is offered in addition to, and does not limit, your statutory
                         rights under the Consumer Protection Act (No. 68 of 2008).
                     </p>
                 </section>

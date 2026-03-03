@@ -7,7 +7,7 @@ export default function GuestLayout({ children }) {
             <div>
                 <Link href="/" className="flex flex-col items-center gap-2 no-underline">
                     <ApplicationLogo className="h-16 w-16" />
-                    <span className="text-xl font-bold tracking-tight text-gray-900">GadgetShack</span>
+                    <span className="text-xl font-bold tracking-tight text-gray-900">GadgetVilla</span>
                 </Link>
             </div>
 

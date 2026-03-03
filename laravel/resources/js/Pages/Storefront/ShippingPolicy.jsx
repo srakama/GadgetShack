@@ -4,7 +4,7 @@ import StorefrontLayout from '@/Layouts/StorefrontLayout';
 export default function ShippingPolicy() {
     return (
         <>
-            <Head title="Shipping Policy – GadgetShack" />
+            <Head title="Shipping Policy – GadgetVilla" />
             <StorefrontLayout>
                 <section className="mx-auto max-w-4xl px-4 py-12">
                     <h1 className="text-3xl font-bold text-gray-900 mb-8">Shipping Policy</h1>
@@ -14,7 +14,7 @@ export default function ShippingPolicy() {
                         <h2 className="text-xl font-semibold text-gray-900 mb-3">Types of Delivery</h2>
                         <p className="text-gray-700 mb-4">
                             We offer delivery of purchased products by courier within 3 – 7 working days.
-                            The table below shows estimated delivery times, which is in addition to GadgetShack's
+                            The table below shows estimated delivery times, which is in addition to GadgetVilla's
                             internal processing times.
                         </p>
                         <div className="overflow-x-auto rounded-lg border border-gray-200">
@@ -22,7 +22,7 @@ export default function ShippingPolicy() {
                                 <thead className="bg-gray-100 text-gray-800 font-semibold">
                                     <tr>
                                         <th className="px-4 py-3 text-left">Time of Order</th>
-                                        <th className="px-4 py-3 text-left">Processing at GadgetShack</th>
+                                        <th className="px-4 py-3 text-left">Processing at GadgetVilla</th>
                                         <th className="px-4 py-3 text-left">To JHB</th>
                                         <th className="px-4 py-3 text-left">To Main City Centres</th>
                                         <th className="px-4 py-3 text-left">To Outlying &amp; Remote Areas</th>
@@ -104,7 +104,7 @@ export default function ShippingPolicy() {
                         <ul className="list-none space-y-2 text-gray-700">
                             <li><span className="font-medium">a)</span> Please ensure you inspect your goods prior to signing the delivery document to ensure that all packaging has been sealed and is intact.</li>
                             <li><span className="font-medium">b)</span> Should there be any damage to the packaging, ensure the delivery document is endorsed accordingly and reject your delivery or else take a video when opening the parcel.</li>
-                            <li><span className="font-medium">c)</span> Please be kind enough to email this rejection of delivery to <a href="mailto:info@gadgetshack.co.za" className="text-blue-600 hover:underline">info@gadgetshack.co.za</a>.</li>
+                            <li><span className="font-medium">c)</span> Please be kind enough to email this rejection of delivery to <a href="mailto:info@gadgetvilla.co.za" className="text-blue-600 hover:underline">info@gadgetvilla.co.za</a>.</li>
                         </ul>
                     </div>
 
@@ -121,13 +121,13 @@ export default function ShippingPolicy() {
                     <div className="mb-8">
                         <h2 className="text-xl font-semibold text-gray-900 mb-3">Returned Orders</h2>
                         <ul className="list-none space-y-2 text-gray-700">
-                            <li><span className="font-medium">a)</span> You can return your item to GadgetShack for a full refund or exchange, subject to our Returns Policy.</li>
+                            <li><span className="font-medium">a)</span> You can return your item to GadgetVilla for a full refund or exchange, subject to our Returns Policy.</li>
                             <li><span className="font-medium">b)</span> Please ensure you include all packaging, manual(s) and accessories to allow us to process the return.</li>
                         </ul>
                     </div>
 
                     <p className="text-gray-700 mt-10 pt-6 border-t border-gray-200 text-sm">
-                        GadgetShack operates in terms of the requirements of the Consumer Protection Act.
+                        GadgetVilla operates in terms of the requirements of the Consumer Protection Act.
                     </p>
                 </section>
             </StorefrontLayout>

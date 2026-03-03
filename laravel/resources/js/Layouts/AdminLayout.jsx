@@ -20,7 +20,7 @@ export default function AdminLayout({ title, children }) {
                 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:relative lg:translate-x-0 lg:flex lg:flex-col`}>
                 <div className="flex h-16 items-center justify-between px-5 border-b border-white/10">
                     <Link href="/admin" className="text-lg font-bold tracking-tight">
-                        ⚙️ GadgetShack
+                        ⚙️ GadgetVilla
                     </Link>
                     <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-white/60 hover:text-white">✕</button>
                 </div>

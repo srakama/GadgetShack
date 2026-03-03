@@ -835,7 +835,7 @@ Route::get('/payments/payfast/{orderId}/start', function (Request $request, int 
         'notify_url' => $notifyUrl,
         'm_payment_id' => (string) $orderId,
         'amount' => $amount,
-        'item_name' => 'GadgetShack Order #'.$orderId,
+        'item_name' => 'GadgetVilla Order #'.$orderId,
         'custom_str1' => (string) $request->user()->id,
     ];
 
@@ -967,7 +967,7 @@ Route::get('/payments/paypal/{orderId}/start', function (Request $request, int $
     $fields = [
         'cmd' => '_xclick',
         'business' => $business,
-        'item_name' => 'GadgetShack Order #'.$orderId,
+        'item_name' => 'GadgetVilla Order #'.$orderId,
         'amount' => $amount,
         'currency_code' => env('PAYPAL_CURRENCY', 'ZAR'),
         'custom' => (string) $orderId,

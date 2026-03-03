@@ -4,7 +4,7 @@ import StorefrontLayout from '@/Layouts/StorefrontLayout';
 export default function PrivacyStatement() {
     return (
         <>
-            <Head title="Privacy Statement – GadgetShack" />
+            <Head title="Privacy Statement – GadgetVilla" />
             <StorefrontLayout>
                 <section className="mx-auto max-w-4xl px-4 py-12">
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">Privacy Statement</h1>
@@ -13,7 +13,7 @@ export default function PrivacyStatement() {
                     {/* Introduction */}
                     <div className="mb-8">
                         <p className="text-gray-700 mb-4">
-                            GadgetShack ("we", "us", "our") is committed to protecting your personal information
+                            GadgetVilla ("we", "us", "our") is committed to protecting your personal information
                             and respecting your privacy. This Privacy Statement explains how we collect, use, store,
                             and share your personal information when you visit our website or purchase from us.
                         </p>
@@ -133,8 +133,8 @@ export default function PrivacyStatement() {
                         </ul>
                         <p className="text-gray-700 mt-3">
                             To exercise any of these rights, please contact us at{' '}
-                            <a href="mailto:info@gadgetshack.co.za" className="text-blue-600 hover:underline">
-                                info@gadgetshack.co.za
+                            <a href="mailto:info@gadgetvilla.co.za" className="text-blue-600 hover:underline">
+                                info@gadgetvilla.co.za
                             </a>.
                         </p>
                     </div>
@@ -164,14 +164,14 @@ export default function PrivacyStatement() {
                         <p className="text-gray-700">
                             If you have any questions, concerns, or requests regarding this Privacy Statement or your
                             personal information, please contact our Privacy Officer at:{' '}
-                            <a href="mailto:info@gadgetshack.co.za" className="text-blue-600 hover:underline">
-                                info@gadgetshack.co.za
+                            <a href="mailto:info@gadgetvilla.co.za" className="text-blue-600 hover:underline">
+                                info@gadgetvilla.co.za
                             </a>.
                         </p>
                     </div>
 
                     <p className="text-gray-700 mt-10 pt-6 border-t border-gray-200 text-sm">
-                        GadgetShack complies with the Protection of Personal Information Act (POPIA, No. 4 of 2013),
+                        GadgetVilla complies with the Protection of Personal Information Act (POPIA, No. 4 of 2013),
                         the Electronic Communications and Transactions Act (ECTA, No. 25 of 2002), and the Consumer
                         Protection Act (No. 68 of 2008).
                     </p>

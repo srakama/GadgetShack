@@ -6,7 +6,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createRoot, hydrateRoot } from 'react-dom/client';
 import { route } from '../../vendor/tightenco/ziggy';
 
-const appName = import.meta.env.VITE_APP_NAME || 'GadgetShack';
+const appName = import.meta.env.VITE_APP_NAME || 'GadgetVilla';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
